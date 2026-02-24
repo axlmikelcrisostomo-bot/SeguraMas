@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yolandita-backend-simple
+    name: proyecto-finanzas-backend-g6
     env: python
     rootDir: backend
     plan: free
@@ -15,6 +15,6 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_BASE_URL
-        value: https://yolandita-backend-simple.onrender.com
+        value: https://proyecto-finanzas-backend-g6.onrender.com
       - key: VITE_API_URL
-        value: https://yolandita-backend-simple.onrender.com/api/v1
+        value: https://proyecto-finanzas-backend-g6.onrender.com/api/v1
