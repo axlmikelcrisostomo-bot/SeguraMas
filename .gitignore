@@ -73,6 +73,10 @@ yolov8*.pt
 videos/
 images/
 
+# Allow only optimized public web videos for deployment
+!frontend/public/videos/
+!frontend/public/videos/*_web.mp4
+
 # Node
 node_modules/
 dist/
