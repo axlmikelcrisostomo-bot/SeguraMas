@@ -108,7 +108,7 @@ const Dashboard = () => {
     <div className="min-h-screen bg-gray-900 text-white p-6">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-4xl font-bold mb-2">Panel Yolandita</h1>
+        <h1 className="text-4xl font-bold mb-2">Panel ADMIN</h1>
         <p className="text-gray-400">Monitoreo de Seguridad en Tiempo Real y Analíticas IA</p>
       </div>
 

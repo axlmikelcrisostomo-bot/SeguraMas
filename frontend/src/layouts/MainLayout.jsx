@@ -60,7 +60,7 @@ const MainLayout = () => {
                 <span className="text-white font-bold">Y</span>
               </div>
               <div>
-                <h1 className="text-lg font-bold text-cyan-400">Yolandita</h1>
+                <h1 className="text-lg font-bold text-cyan-400">ADMIN</h1>
                 <p className="text-xs text-purple-300">Sistema de Seguridad</p>
               </div>
             </div>
