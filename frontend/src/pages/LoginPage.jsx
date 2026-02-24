@@ -8,7 +8,7 @@ const LoginPage = () => {
   const { login, register, loading, error, clearError } = useAuthStore();
   const [isRegister, setIsRegister] = useState(false);
   const [formData, setFormData] = useState({
-    email: 'demo@yolandita.com',
+    email: 'demo@admin.com',
     password: 'demo1234',
     name: '',
   });
@@ -42,7 +42,7 @@ const LoginPage = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-lg mb-4">
             <LogIn className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-white">Yolandita</h1>
+          <h1 className="text-3xl font-bold text-white">admin</h1>
           <p className="text-gray-400 mt-2">Sistema de Seguridad con IA</p>
         </div>
 
@@ -129,7 +129,7 @@ const LoginPage = () => {
           {/* Demo Credentials */}
           <div className="bg-blue-900/30 border border-blue-700/30 rounded-lg p-3">
             <p className="text-xs text-blue-300 font-semibold mb-1">Credenciales Demo:</p>
-            <p className="text-xs text-blue-400">Email: demo@yolandita.com</p>
+            <p className="text-xs text-blue-400">Email: demo@admin.com</p>
             <p className="text-xs text-blue-400">Contraseña: demo1234</p>
           </div>
 
