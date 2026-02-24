@@ -1,4 +1,4 @@
-# Yolandita - Intelligent Security Monitoring System
+#Intelligent Security Monitoring System
 
 🔒 **Real-time Security Monitoring with YOLOv8 + SaaS Model**
 
